@@ -1,10 +1,8 @@
-
 const place = document.querySelector('input')
 const submit = document.getElementById('submit')
 const one = document.getElementById('error')
 const two = document.getElementById('out')
 
-console.log('web js online')
 submit.addEventListener('click', (e) =>{
     e.preventDefault()
 
