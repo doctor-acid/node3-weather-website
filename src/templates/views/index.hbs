@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel='icon' href=''>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class='main-content'>
+            {{>header}}
+    
+
+    <form>
+        <input placeholder="Enter location">
+        <button id ='submit'>Submit</button>
+    </form>
+
+    <p id='error'></p>
+    <p id='out'></p>
+    </div>
+
+    {{>footer}}
+
+    <script src="/js/web.js"></script>
+</body>
+</html>
