@@ -9,7 +9,7 @@ submit.addEventListener('click', (e) =>{
     one.textContent = 'Loading...'
     two.textContent = ''
 
-    fetch('http://localhost:3000/weather?address='+place.value).then( (res) =>{
+    fetch('/weather?address='+place.value).then( (res) =>{
         res.json().then( (obj) => {
             console.log(obj)
             if(obj.error){
