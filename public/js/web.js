@@ -16,7 +16,7 @@ submit.addEventListener('click', (e) =>{
                 one.textContent=obj.error
             } else{
                 one.textContent=obj.location
-                two.textContent=JSON.stringify(obj.forecast)
+                two.textContent=obj.forecast
             }
         })
     })

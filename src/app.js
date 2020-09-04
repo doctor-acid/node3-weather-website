@@ -58,7 +58,7 @@ app.get('/weather', (req, res) => {
                 } else{
                     res.send({
                         location,
-                        forecast :forecastData,
+                        forecast :'The weather outside: '+forecastData.weather_descriptions[0]+'. The  humidity is '+forecastData.humidity+' and there is '+forecastData.precip+' percent chance of Rain. The temperature outside is '+forecastData.temperature+'degrees and it feels like '+forecastData.feelslike+'degreees out.',
                         address : req.query.address
                     })
                 }
